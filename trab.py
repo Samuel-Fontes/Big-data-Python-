@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import LinearRegression
 
 
-url = "https://raw.githubusercontent.com/Samuel-Fontes/Big-data-Python-/refs/heads/main/BASE%20DATA.csv"
+url = "https://raw.githubusercontent.com/Samuel-Fontes/Big-data-Python-/refs/heads/main/Base%20DATA%20.csv"
 
 
 df = pd.read_csv(url, delimiter=';')
