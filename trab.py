@@ -22,7 +22,7 @@ plt.figure(figsize=(10, 6))
 bar_width = 0.35
 index = np.arange(len(df['regiao']))
 
-plt.bar(index, df['sus_dep'], bar_width, label='SUS Dependente (%)')
+plt.bar(index, df['sus_dep'], bar_width, label='Dependente do SUS  (%)')
 plt.bar(index + bar_width, df['sus_ndep'], bar_width, label='Plano de Saúde (%)')
 
 plt.xlabel('Região')
